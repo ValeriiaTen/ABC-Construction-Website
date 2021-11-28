@@ -8,7 +8,6 @@ class ImageGallery extends React.Component {
           id="carouselExampleIndicators"
           className="carousel slide"
           data-ride="carousel"
-          style={{ height: '650px' }}
         >
           <ol className="carousel-indicators">
             <li
@@ -21,40 +20,25 @@ class ImageGallery extends React.Component {
           </ol>
 
           <div className="carousel-inner">
-            <div className="carousel-item active" style={{ height: '650px' }}>
+            <div className="carousel-item active">
               <img
                 className="d-block w-100"
                 src="./Images/Home3.png"
                 alt="Third slide"
-                style={{
-                  maxWidth: '100%',
-                  maxHeight: '100%',
-                  display: 'block',
-                }}
               />
             </div>
-            <div className="carousel-item" style={{ height: '650px' }}>
+            <div className="carousel-item">
               <img
                 className="d-block w-100"
                 src={'./Images/Home2.png'}
                 alt="Second slide"
-                style={{
-                  maxWidth: '100%',
-                  maxHeight: '100%',
-                  display: 'block',
-                }}
               />
             </div>
-            <div className="carousel-item" style={{ height: '650px' }}>
+            <div className="carousel-item">
               <img
                 className="d-block w-100"
                 src={'./Images/Home1.png'}
                 alt="First slide"
-                style={{
-                  maxWidth: '100%',
-                  maxHeight: '100%',
-                  display: 'block',
-                }}
               />
             </div>
           </div>

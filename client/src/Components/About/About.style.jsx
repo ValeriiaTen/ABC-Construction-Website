@@ -1,29 +1,59 @@
 import styled from 'styled-components';
 
-export const Content = styled.div`
+export const Container = styled.div`
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  background: #e7e7e7;
-  padding: 5%;
-  text-align: center;
-  width: 100%;
+  align-items: stretch;
+  box-sizing: border-box;
+  // margin: 0px -16.5px;
 `;
 
-export const TextDiv = styled.div`
-  background: #ccc;
-  border: 2px solid red;
-  display: inline-block;
-  width: 500px;
-  margin: 0 30px 0 20px;
-  padding: 2%;
+export const TextDiv1 = styled.div`
+  box-sizing: border-box;
+  width: 560px;
+  height: 450px;
+  margin: 0px 15px 25px 15px;
+  padding: 10px 20px;
 `;
 
-export const ImageDiv = styled.div`
-  background: #ccc;
-  border: 2px solid red;
-  display: inline-block;
+export const ImageDiv1 = styled.div`
+  box-sizing: border-box;
   width: 450px;
-  margin: 0 20px 0 30px;
-  padding: 4%;
+  margin: 0px 15px 25px 15px;
+  padding: 10px 20px;
+`;
+export const TextDiv = styled.div`
+  box-sizing: border-box;
+  width: 510px;
+  margin-bottom: 25px;
+  padding: 0px 16.5px;
+`;
+export const ImageDiv = styled.div`
+  box-sizing: border-box;
+  width: 500px;
+  margin-bottom: 25px;
+  padding: 0px 16.5px;
+`;
+
+export const TeamPhoto = styled.div`
+  box-sizing: border-box;
+  width: 70%;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding: 0px 16.5px;
+`;
+export const TeamText = styled.div`
+  box-sizing: border-box;
+  width: 70%;
+  margin-bottom: 25px;
+  padding: 0px 16.5px;
+`;
+
+export const Blockquote = styled.div`
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0px 16.5px;
 `;
